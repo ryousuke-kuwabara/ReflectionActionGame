@@ -2271,7 +2271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a763d88b3b7bad4fb8108ec863bfaf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemSpawnRadius: 2.1
+  ItemSpawnRadius: 2
   EndLineRadius: 0
 --- !u!58 &1824472331
 CircleCollider2D:
