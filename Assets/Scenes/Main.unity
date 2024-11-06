@@ -1560,6 +1560,8 @@ MonoBehaviour:
   itemList:
   - {fileID: 4294335011661065283, guid: d2e5109b1fcec394fa2b3298100a64dd, type: 3}
   spawnDelayTime: 3
+  _playerTransform: {fileID: 0}
+  _minimumDistanceFromPlayer: 0
 --- !u!4 &1309405262
 Transform:
   m_ObjectHideFlags: 0
@@ -1900,6 +1902,8 @@ MonoBehaviour:
   - {fileID: 2434106096420194540, guid: 2b06cc0f11acd6047bfd6c3792d0a652, type: 3}
   - {fileID: 4294335011661065283, guid: d2e5109b1fcec394fa2b3298100a64dd, type: 3}
   spawnDelayTime: 3
+  _playerTransform: {fileID: 8690324376296083518}
+  _minimumDistanceFromPlayer: 1.15
 --- !u!1 &1537991264
 GameObject:
   m_ObjectHideFlags: 0
@@ -3394,6 +3398,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f27bcf7d3ae900a47bd431816f6c3f94, type: 3}
+--- !u!4 &8690324376296083518 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1432522191230859054, guid: f27bcf7d3ae900a47bd431816f6c3f94, type: 3}
+  m_PrefabInstance: {fileID: 8690324376296083517}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
