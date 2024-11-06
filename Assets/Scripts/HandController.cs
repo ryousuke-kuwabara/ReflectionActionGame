@@ -12,8 +12,8 @@ public class HandController : MonoBehaviour
     // à⁄ìÆèàóù
     void Update()
     {
-        float horizonInput = Input.GetAxis("Horizontal");
-        transform.RotateAround(center.transform.position, transform.forward, speed * joyStick.Horizontal * Time.deltaTime);
+        float horizontalInput = Mathf.Clamp(Input.GetAxisRaw("Horizontal") + joyStick.Horizontal, -1f, 1f);
+        transform.RotateAround(center.transform.position, transform.forward, speed * horizontalInput * Time.deltaTime);
 
         Vector3 lookDirection = center.position - transform.position;
         transform.rotation = Quaternion.LookRotation(Vector3.forward, lookDirection);
