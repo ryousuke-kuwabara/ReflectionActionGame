@@ -139,11 +139,8 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 1.0.5
-  preloadedAssets:
-  - {fileID: -4860787630576802132, guid: 5f26fd8007b12e840910116bd21ad86b, type: 2}
-  - {fileID: 11400000, guid: 0c273539d60cc744d9397f2d23eb2580, type: 2}
-  - {fileID: 11400000, guid: 5b87e09a9e0d40c4dbcf10b6be89696e, type: 2}
+  bundleVersion: 1.0.6
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -175,7 +172,7 @@ PlayerSettings:
     iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 3
+  AndroidBundleVersionCode: 5
   AndroidMinSdkVersion: 24
   AndroidTargetSdkVersion: 34
   AndroidPreferredInstallLocation: 1
@@ -270,8 +267,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: user.keystore'
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: '{inproject}: babyblock.keystore'
+  AndroidKeyaliasName: babyblock_release
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0

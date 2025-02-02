@@ -29,7 +29,7 @@ public class TimeScaleManager : MonoBehaviour
 
     private void OnApplicationFocus(bool hasFocus)
     {
-        if (!(hasFocus))
+        if (!(hasFocus) && Time.timeScale != 0f)
         {
             _option.SetActive(true);
         }
